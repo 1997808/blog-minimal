@@ -1,0 +1,30 @@
+name: Deploy to OVH VPS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: SSH to OVH VPS and deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd dev/blog-minimal
+            git pull origin main
+            docker compose down
+            docker compose build
+            docker compose up -d
+            echo 'Deployment to ovh cloud finished'
