@@ -1,13 +1,11 @@
 # Use the official Node.js image as the base  
-FROM node:18-alpine
+FROM node:18.18-alpine3.17
 
 # Set the working directory inside the container  
 WORKDIR /app  
 
 # Copy package.json and package-lock.json to the container  
 COPY package*.json ./  
-
-RUN npm i sharp
 
 # Install dependencies  
 RUN npm install  
