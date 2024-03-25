@@ -7,4 +7,3 @@ services:
       - "3000:3001"
     environment:
       NODE_ENV: development
-    command: npm run dev
