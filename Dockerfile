@@ -7,6 +7,8 @@ WORKDIR /app
 # Copy package.json and package-lock.json to the container  
 COPY package*.json ./  
 
+RUN npm i sharp
+
 # Install dependencies  
 RUN npm install  
 
