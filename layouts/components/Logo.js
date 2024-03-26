@@ -10,15 +10,11 @@ const Logo = ({ src }) => {
     <Link href="/" className="navbar-brand block">
       {src || logo ? (
         <Image
-          width={logo_width.replace("px", "") * 2}
-          height={logo_height.replace("px", "") * 2}
+          width={logo_width}
+          height={logo_height}
           src={src ? src : logo}
           alt={title}
           priority
-          style={{
-            height: logo_height.replace("px", "") + "px",
-            width: logo_width.replace("px", "") + "px",
-          }}
         />
       ) : logo_text ? (
         logo_text

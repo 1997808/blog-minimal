@@ -1,17 +1,14 @@
 ---
-title: "I’m John Doe, A content writer based in LDN, currently at Bookworm"
+title: "I’m Le Duy Khanh - Fullstack Web Developer"
 meta_title: "About"
-image: "/images/author.jpg"
+image: "/images/authors/john-doe.jpg"
 layout: "about"
 draft: false
 
 # social sites
 social:
   facebook: "https://www.facebook.com"
-  twitter: "https://www.twitter.com"
-  instagram: "https://www.instagram.com"
+  linkedin: "https://www.linkedin.com/in/"
 ---
 
-A content writer with over 12 years experience working across brand identity, publishing and digital products. Maecenas sit amet purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget.
-
-Purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis.
+A Fullstack Developer specializing in building web applications with 2 years of experience. I have a passion for building web applications and I am always looking for new technologies to learn and improve my skills. I have experience in building web applications with React, Node.js, Express, Nestjs and PostgreSQL. I am also familiar with other technologies such as Python and MongoDB. I am always looking for new opportunities to work on interesting projects and learn new technologies. I am currently looking for a full-time position as a Full Stack Developer. If you are interested in working with me, please feel free to contact me through Linkedin.

@@ -1,16 +1,16 @@
 {
   "site": {
-    "title": "Bookworm Next | Personal Blog Theme",
+    "title": "Karuhi Timeline | Personal Blog",
     "base_url": "/",
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_width": "200",
-    "logo_height": "34",
-    "logo_text": "Bookworm Light"
+    "favicon": "/svg/logo.svg",
+    "logo": "/svg/logo.svg",
+    "logo_width": "40",
+    "logo_height": "40",
+    "logo_text": "Karuhi Timeline"
   },
 
   "settings": {
-    "pagination": 3,
+    "pagination": 5,
     "summary_length": 200,
     "blog_folder": "posts"
   },
@@ -18,12 +18,12 @@
   "params": {
     "tag_manager_id": "",
     "contact_form_action": "#",
-    "copyright": "Copyright © 2022 a theme by [themefisher](https://themefisher.com)"
+    "copyright": "Copyright © 2024 by Karuhi"
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
-    "meta_image": "/images/og-image.png",
-    "meta_description": "Next Boilerplate"
+    "meta_author": "Karuhi",
+    "meta_image": "/images/author.jpg",
+    "meta_description": "Karuhi Timeline is a personal blog where I share my thoughts and experiences. I write about technology, programming, and life in general."
   }
 }
