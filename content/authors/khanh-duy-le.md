@@ -1,11 +1,7 @@
 ---
 title: "I’m Le Duy Khanh - Fullstack Web Developer"
-meta_title: "About"
-image: "/images/authors/john-doe.jpg"
-layout: "about"
-draft: false
-
-# social sites
+image: /images/authors/john-doe.jpg
+description: this is meta description
 social:
   linkedin: "https://www.linkedin.com/in/khanhduyle222/"
 ---

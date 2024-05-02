@@ -2,6 +2,7 @@ import config from "@config/config.json";
 import theme from "@config/theme.json";
 import { JsonContext } from "context/state";
 import Head from "next/head";
+import Script from "next/script";
 import { useEffect, useState } from "react";
 import TagManager from "react-gtm-module";
 import "styles/style.scss";
@@ -13,8 +14,7 @@ const App = ({ Component, pageProps }) => {
   const [fontcss, setFontcss] = useState();
   useEffect(() => {
     fetch(
-      `https://fonts.googleapis.com/css2?family=${pf}${
-        sf ? "&family=" + sf : ""
+      `https://fonts.googleapis.com/css2?family=${pf}${sf ? "&family=" + sf : ""
       }&display=swap`
     ).then((res) => res.text().then((css) => setFontcss(css)));
   }, [pf, sf]);
@@ -50,6 +50,11 @@ const App = ({ Component, pageProps }) => {
           content="width=device-width, initial-scale=1, maximum-scale=5"
         />
       </Head>
+      <Script
+        defer
+        src="https://eu.umami.is/script.js"
+        data-website-id="caa8335b-2dd2-4af7-bac4-401f99125581"
+      />
       <Component {...pageProps} />
     </JsonContext>
   );
