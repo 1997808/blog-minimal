@@ -5,7 +5,7 @@ description: "Here's a look at why we created Plausible Analytics as a great
   and blogs."
 date: 2023-04-04
 image: "/images/posts/01.jpg"
-categories: ["art"]
+categories: ["development"]
 authors: ["Mark Dinn"]
 tags: ["diy", "toy"]
 draft: false

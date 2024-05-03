@@ -2,7 +2,6 @@ import config from "@config/config.json";
 import theme from "@config/theme.json";
 import { JsonContext } from "context/state";
 import Head from "next/head";
-import Script from "next/script";
 import { useEffect, useState } from "react";
 import TagManager from "react-gtm-module";
 import "styles/style.scss";
@@ -55,7 +54,7 @@ const App = ({ Component, pageProps }) => {
         defer
         src="https://eu.umami.is/script.js"
         data-website-id="caa8335b-2dd2-4af7-bac4-401f99125581"
-      />
+      ></Script>
       <Component {...pageProps} />
     </JsonContext>
   );
