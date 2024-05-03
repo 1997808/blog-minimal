@@ -6,6 +6,7 @@ import Script from "next/script";
 import { useEffect, useState } from "react";
 import TagManager from "react-gtm-module";
 import "styles/style.scss";
+import Script from "next/script";
 
 const App = ({ Component, pageProps }) => {
   // import google font css
