@@ -6,6 +6,8 @@ import Contact from "@layouts/Contact";
 import Default from "@layouts/Default";
 import PostSingle from "@layouts/PostSingle";
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
+import { useVisitorData } from '@fingerprintjs/fingerprintjs-pro-react'
+
 const { blog_folder } = config.settings;
 
 // for all regular pages
@@ -13,6 +15,10 @@ const RegularPages = ({ slug, data, postSlug, authors, posts }) => {
   const { title, meta_title, description, image, noindex, canonical, layout } =
     data.frontmatter;
   const { content } = data;
+  const { isLoading, error, data: visitorData, getData } = useVisitorData(
+    { extendedResult: true },
+    { immediate: true }
+  )
 
   return (
     <Base
@@ -35,6 +41,7 @@ const RegularPages = ({ slug, data, postSlug, authors, posts }) => {
       ) : (
         <Default data={data} />
       )}
+      <p className="text-center">VisitorId: {isLoading ? 'Loading...' : visitorData?.visitorId}</p>
     </Base>
   );
 };

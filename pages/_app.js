@@ -6,6 +6,9 @@ import { useEffect, useState } from "react";
 import TagManager from "react-gtm-module";
 import "styles/style.scss";
 import Script from "next/script";
+import {
+  FpjsProvider
+} from '@fingerprintjs/fingerprintjs-pro-react'
 
 const App = ({ Component, pageProps }) => {
   // import google font css
@@ -31,32 +34,39 @@ const App = ({ Component, pageProps }) => {
   }, []);
 
   return (
-    <JsonContext>
-      <Head>
-        {/* google font css */}
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="true"
-        />
-        <style
-          dangerouslySetInnerHTML={{
-            __html: `${fontcss}`,
-          }}
-        />
-        {/* responsive meta */}
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=5"
-        />
-      </Head>
-      <Script
-        defer
-        src="https://eu.umami.is/script.js"
-        data-website-id="caa8335b-2dd2-4af7-bac4-401f99125581"
-      ></Script>
-      <Component {...pageProps} />
-    </JsonContext>
+    <FpjsProvider
+      loadOptions={{
+        apiKey: process.env.NEXT_PUBLIC_FPJS_KEY,
+        region: "ap"
+      }}
+    >
+      <JsonContext>
+        <Head>
+          {/* google font css */}
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="true"
+          />
+          <style
+            dangerouslySetInnerHTML={{
+              __html: `${fontcss}`,
+            }}
+          />
+          {/* responsive meta */}
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=5"
+          />
+        </Head>
+        <Script
+          defer
+          src="https://eu.umami.is/script.js"
+          data-website-id="caa8335b-2dd2-4af7-bac4-401f99125581"
+        ></Script>
+        <Component {...pageProps} />
+      </JsonContext>
+    </FpjsProvider>
   );
 };
 
