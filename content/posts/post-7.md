@@ -2,7 +2,7 @@
 title: "DIY Paper Diamond Tutorial with HUNGRY HEART"
 description: "meta description"
 date: 2022-08-12
-image: "/images/posts/05.jpg"
+image: "/images/posts/04.jpg"
 categories: ["art"]
 authors: ["Mark Dinn"]
 tags: ["diy", "toy"]
