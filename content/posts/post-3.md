@@ -5,7 +5,7 @@ date: 2022-06-02
 image: "/images/posts/03.jpg"
 categories: ["development"]
 authors: ["bannedit's musings"]
-tags: ["diy", "toy"]
+tags: ["VM", "Javascript"]
 draft: false
 ---
 

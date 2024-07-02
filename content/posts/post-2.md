@@ -5,7 +5,7 @@ date: 2024-04-30
 image: "/images/posts/02.jpg"
 categories: ["development"]
 authors: ["John Doe"]
-tags: ["diy", "toy"]
+tags: ["Umami", "Google Analytics"]
 draft: false
 ---
 

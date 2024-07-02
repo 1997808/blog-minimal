@@ -7,7 +7,7 @@ date: 2023-04-04
 image: "/images/posts/01.jpg"
 categories: ["development"]
 authors: ["Mark Dinn"]
-tags: ["diy", "toy"]
+tags: ["Plausible", "Google Analytics"]
 draft: false
 ---
 

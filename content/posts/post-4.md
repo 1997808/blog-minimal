@@ -5,8 +5,8 @@ image: "/images/posts/09.png"
 date: 2024-06-12
 draft: false
 authors: ["Mark Dinn"]
-tags: ["Balloon", "Gas"]
-categories: ["Accessories"]
+tags: ["Bot", "Web"]
+categories: ["Javascript"]
 ---
 
 Did you know an estimated half of all web traffic comes from bots? And over half of that automated traffic is from "bad bots." Websites constantly face threats from automated bots designed to carry out malicious activities like credential stuffing attacks, web scraping, spam distribution, and fraud.
