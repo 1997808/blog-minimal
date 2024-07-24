@@ -4,7 +4,7 @@ description: Find out why Umami is the best GA alternative.
 date: 2024-04-30
 image: "/images/posts/02.jpg"
 categories: ["development"]
-authors: ["John Doe"]
+authors: ["Khanh Duy Le"]
 tags: ["Umami", "Google Analytics"]
 draft: false
 ---

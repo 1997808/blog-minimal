@@ -6,7 +6,7 @@ description: "Here's a look at why we created Plausible Analytics as a great
 date: 2023-04-04
 image: "/images/posts/01.jpg"
 categories: ["development"]
-authors: ["Mark Dinn"]
+authors: ["Khanh Duy Le"]
 tags: ["Plausible", "Google Analytics"]
 draft: false
 ---

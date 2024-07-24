@@ -1,22 +1,44 @@
 ---
-title: "Become a morning person with the help of this a alarm clock"
+title: "Lịch Đăng Ký Thi Năng Lực Tiếng Nhật Tháng 12.2024 Tại Điểm Thi Hà Nội"
 description: "meta description"
-image: "/images/posts/06.jpg"
-date: 2021-02-03
+image: "/images/posts/jlpt_2024.jpg"
+date: 2024-07-24
 draft: false
-authors: ["Mark Dinn"]
-tags: ["Alarm", "Clock"]
-categories: ["LifeStyle"]
+authors: ["Khanh Duy Le"]
+tags: ["JLPT", "Test", "Năng Lực Tiếng Nhật"]
+categories: ["Education"]
 ---
 
-Almost every day for the past nine or so months has felt like March 13, and that can sometimes make it difficult to want to wake up for the day ahead of you.
+1\. Thời gian mua và nộp hồ sơ:
 
-To make a morning person out of you, the wake-up light simulates the sunrise to gradually ease you awake. This allows you to wake up more naturally rather than being jolted awake by the default iPhone alarm sound, which honestly triggers my fight or flight response.
+N3, N4, N5: Bắt đầu từ ngày 15/07/2024 – 30/08/2024
 
-### Creative Design
+( Những đơn vị ở xa, mua nhiều hồ sơ có thể liên hệ sđt 0975 530 196 để được hỗ trợ gửi ship)
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+2.Địa điểm mua hồ sơ:
 
->Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+Phòng 102 khu liên hợp thể thao, Trường ĐH Ngoại Ngữ - ĐH Quốc Gia HN (Số 1, Phạm Văn Đồng, Cầu Giấy, Hà Nội)
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+Giá bán: 30.000 / 1 hồ sơ 
+
+3\. Lệ phí nộp hồ sơ:
+
+N3, N4, N5: 620,000/ 1 hồ sơ
+
+4\. Địa điểm nhận hồ sơ:
+
+\-N3, N4, N5: Phòng 102, Khu liên hợp thể thao. Trường ĐH Ngoại Ngữ - ĐH Quốc Gia HN (Số 2, Phạm Văn Đồng, Cầu Giấy, Hà Nội)
+
+( Là tòa nhà trong khu vực sân bóng của trường. Thí sinh đi theo cổng Phạm Văn Đồng vào, sân bóng ở ngay phía bên tay trái cổng)
+
+5\. Thời gian thi: 8h sáng chủ nhật ngày 01/12/2024
+
+6.Địa điểm thi:
+
+\- N3, N4, N5: Trường ĐH Ngoại Ngữ - ĐH Quốc Gia Hà Nội
+
+7.Thời gian làm việc:
+
+Từ thứ 2 – thứ 6 (sáng 8h30 -11h30, chiều 13h30-16h30) trừ ngày nghỉ lễ
+
+8\. Liên hệ: • Phone: [0243 754 9867](tel:0243%20754%209867) / 0985 642 702

@@ -4,7 +4,7 @@ description: "Bot Detection"
 image: "/images/posts/09.png"
 date: 2024-06-12
 draft: false
-authors: ["Mark Dinn"]
+authors: ["Khanh Duy Le"]
 tags: ["Bot", "Web"]
 categories: ["Javascript"]
 ---

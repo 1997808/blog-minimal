@@ -4,7 +4,7 @@ description: "meta description"
 date: 2022-08-12
 image: "/images/posts/04.jpg"
 categories: ["art"]
-authors: ["Mark Dinn"]
+authors: ["Khanh Duy Le"]
 tags: ["diy", "toy"]
 draft: false
 ---
